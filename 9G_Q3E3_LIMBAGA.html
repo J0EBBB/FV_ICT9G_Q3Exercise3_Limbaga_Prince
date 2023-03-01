@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+	<style type="text/css">
+		img{
+			height: 231px;
+			width: 200px;
+		}
+		h1,h2,h3{
+			font-family: Gloock;
+		}
+		body{
+			background: url('gcztte8rnc68ag2o.jpg');
+		}
+	</style>
+	<title>Q3 Exercise 3</title>
+</head>
+<body>
+	<div class="container">
+		<h2 class="bg-warning text-secondary text-center">HOGWARTS SCHOOL OF WITCHCRAFTS AND WIZARDY</h2>
+		<table class="table table-dark table-hover">
+			<tr>
+				<td>Picture</td>
+				<td>Firstname</td>
+				<td>Lastname</td>
+				<td>House</td>
+			</tr>
+			<tr>
+				<td><img src="Harry_Potter_MP.webp" class="rounded"></td>
+				<td>Harry</td>
+				<td>Potter</td>
+				<td>Gryffindor</td>
+			</tr>
+			<tr>
+				<td><img src="Hermione_Granger_MP.webp" class="rounded"></td>
+				<td>Hermione</td>
+				<td>Granger</td>
+				<td>Gryffindor</td>
+			</tr>
+			<tr>
+				<td><img src="Ronald_Weasley_MP.webp" class="rounded"></td>
+				<td>Ron</td>
+				<td>Weasley</td>
+				<td>Gryffindor</td>
+			</tr>
+			<tr>
+				<td><img src="Ginny_Weasley_MP.webp" class="rounded"></td>
+				<td>Ginny</td>
+				<td>Weasley</td>
+				<td>Gryffindor</td>
+			</tr>
+			<tr>
+				<td><img src=Neville_Longbottom_MP.webp" class="rounded"></td>
+				<td>Neville</td>
+				<td>Longbottom</td>
+				<td>Gryffindor</td>
+			</tr>
+			<tr>
+				<td><img src="Luna_Lovegood_MP.webp" class="rounded"></td>
+				<td>Luna</td>
+				<td>Lovegood</td>
+				<td>Ravenclaw</td>
+			</tr>
+			<tr>
+				<td><img src="Draco_Malfoy_MP.webp" class="rounded"></td>
+				<td>Draco</td>
+				<td>Malfoy</td>
+				<td>Slytherin</td>
+			</tr>
+		</table>
+
+		<div class="container">
+			<form>
+				Enter Firstname: <input type="text" name="fname" class="form-control">
+				Enter Lastname: <input type="text" name="lname" class="form-control">
+				Choose House:
+				<select class="form-control">
+					<option>Gryffindor</option>
+					<option>Ravenclaw</option>
+					<option>Hufflepuff</option>
+					<option>Slytherin</option>
+				</select>
+				Select Birthdate: <input type="date" name="bday" class="form-control">
+				Upload Picture: <input type="file" name="pic" class="form-control">
+				<br>
+				<input type="submit" name="submit" value="ADD STUDENT" class="btn btn-success btn-block form-control">
+				<br>
+				<input type="reset" name="cancel" value="CANCEL" class="btn btn-danger btn-active form-control">
+			</form>			
+		</div>
+	</div>
+	<footer>&copy;pclimbaga2023</footer>
+</body>
+</html>
